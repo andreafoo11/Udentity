@@ -1,7 +1,6 @@
 import React from 'react'
 import Form from './form.js'
 import "./form.css"
-import Img from "./img.jpg"
 
 class Dashboard extends React.Component {
   
