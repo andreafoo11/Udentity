@@ -1,0 +1,103 @@
+.newinput {
+  margin-top:10px;
+  margin-bottom:10px;
+  border-radius:0.6em;
+  background-color:white;
+  border:none;
+  height:6vh;
+  /* width:20vw; */
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  text-align:center;
+}
+
+#background {
+  background-color:#66cc99;
+  height: 100vh;
+  font-family:"Abel";
+}
+
+.dashboard_container{
+  text-align:center;
+  font-family:"Abel";
+  color:white;
+  font-size:20px;
+  background-color:#66cc99;
+  padding-top:35vh;
+  font-size:100px;
+  height: 100vh;
+}
+
+
+#loginbutton:hover {
+  opacity:0.6;
+}
+
+
+
+/* Create two equal columns that floats next to each other */
+
+.background {
+  background-color:#66cc99;
+  height: 100vh;
+  padding-right:20vw;
+  padding-left:20vw;
+  padding-top:25vh;
+}
+
+
+.loginrow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+font-family:"Abel";
+  padding: 40px;
+  /* margin-right:10%;
+  margin-left:10%; */
+  background-color: white;
+}
+
+/* Clear floats after the columns */
+.loginrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logininput {
+  width: 35%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 10px;
+}
+
+#loginbutton {
+    font-family:"Abel";
+    font-size: 19pt;
+    background-color:#66cc99;
+    color:white;
+    padding:10px;
+    border:none;
+    border-radius:0.4em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-10px;
+    width:140px;
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .logincolumn {
+    width: 100%;
+  }
+
+  .leftcol {
+    height: 20%;
+  }
+
+}
+
